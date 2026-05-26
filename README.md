@@ -5,7 +5,8 @@ A modern **React + TypeScript** admin dashboard project built to demonstrate rea
 ---
 
 ## ✨ Live Demo
-https://your-live-link.com
+
+https://projects-manager-qujb.vercel.app/
 
 ---
 
@@ -42,6 +43,7 @@ https://your-live-link.com
 ---
 
 ## 📁 Project Structure
+
 src/
 │
 ├── lib/
