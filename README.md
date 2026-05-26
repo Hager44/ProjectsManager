@@ -1,73 +1,66 @@
-# React + TypeScript + Vite
+# 🚀 React Admin Dashboard Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **React + TypeScript** admin dashboard project built to demonstrate real-world frontend architecture, API integration, and scalable state management patterns.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Live Demo
+https://your-live-link.com
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🧠 Features
 
-## Expanding the ESLint configuration
+- ⚛️ React + TypeScript architecture
+- 🔄 CRUD operations with API integration
+- 🌐 React Query for server state management
+- 🧠 Zustand for global state (auth)
+- 📝 React Hook Form + Zod validation
+- 🌍 Multi-language support (EN / AR)
+- 🎨 TailwindCSS modern UI
+- 🧩 Reusable component architecture
+- 📡 Service / Provider / Types separation pattern
+- 📊 Mock backend using JSON Server
+- 🧭 React Router navigation with protected layout
+- 📱 Responsive design
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🏗️ Tech Stack
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- React 18
+- TypeScript
+- React Query (@tanstack/react-query)
+- Zustand
+- React Hook Form
+- Zod
+- React Router DOM
+- Tailwind CSS
+- Axios
+- JSON Server (mock API)
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 📁 Project Structure
+src/
+│
+├── lib/
+│ ├── api/
+│ │ └── ProjectServices/
+│ │ ├── project.service.ts # API calls (MockAPI)
+│ │ ├── project.provider.ts # React Query hooks
+│ │ └── project.types.ts # Types & interfaces
+│ │
+│ ├── clients/ # Axios instance
+│ └── methods/ # HTTP helper methods
+│
+├── components/ # Reusable UI components
+├── pages/ # Application pages
+├── hooks/ # Custom hooks
+├── context/ # Language context (i18n)
+├── store/ # Zustand store
+├── routes/ # App routing
+├── locales/ # en/ar translations
+├── utils/ # Helpers
+├── styles/ # Global styles
+└── main.tsx
