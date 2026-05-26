@@ -1,0 +1,23 @@
+{
+  "projects": [
+    {
+      "name": "Math",
+      "description": "Dealing With Numbers",
+      "status": "active",
+      "id": "cj_JcC2BQ5M"
+    },
+    {
+      "name": "project1",
+      "description": "new project",
+      "status": "active",
+      "id": "7EZaC1gvA0g"
+    },
+    {
+      "name": "project2",
+      "description": "new project",
+      "status": "active",
+      "id": "Dh-4QYWd40Q"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

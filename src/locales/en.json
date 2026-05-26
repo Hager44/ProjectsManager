@@ -1,0 +1,13 @@
+{
+  "dashboard": "Dashboard",
+  "settings": "Settings",
+  "projects": "Projects",
+  "portfolio": "Portfolio",
+
+  "totalProjects": "Total Projects",
+  "activeTasks": "Active Tasks",
+  "completed": "Completed",
+
+  "currentLanguage": "Current Language",
+  "toggleLanguage": "Toggle Language"
+}

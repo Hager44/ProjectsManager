@@ -1,0 +1,13 @@
+{
+  "dashboard": "لوحة التحكم",
+  "settings": "الإعدادات",
+  "projects": "المشاريع",
+  "portfolio": "ملف الأعمال",
+
+  "totalProjects": "إجمالي المشاريع",
+  "activeTasks": "المهام النشطة",
+  "completed": "المكتملة",
+
+  "currentLanguage": "اللغة الحالية",
+  "toggleLanguage": "تغيير اللغة"
+}
